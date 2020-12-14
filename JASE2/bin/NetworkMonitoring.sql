@@ -1,0 +1,14 @@
+alter table Linux_Record drop foreign key FKLinux_Reco891163;
+alter table Windows_Record drop foreign key FKWindows_Re127457;
+alter table Router_record drop foreign key FKRouter_rec233861;
+drop table if exists Device;
+drop table if exists Linux_Record;
+drop table if exists Windows_Record;
+drop table if exists Router_record;
+create table Device (IPaddress varchar(20) not null unique, DeviceName varchar(255) not null, DeviceType varchar(20) not null, DeviceDescription varchar(255), OS varchar(255) not null, primary key (IPaddress, DeviceName));
+create table Linux_Record (RecordID int(255) not null auto_increment, ipaddress varchar(20) not null, DeviceName varchar(255) not null, systemuptime varchar(255) not null, total_ram varchar(255) not null, used_ram varchar(255) not null, ram_usage varchar(255) not null, cpu_usage varchar(255) not null, total_hdd_space varchar(255) not null, avail_hdd_space varchar(255) not null, network_in_traffic varchar(255) not null, network_out_traffic varchar(255) not null, recordtime timestamp not null, primary key (RecordID));
+create table Windows_Record (RecordID varchar(255) not null, IPaddress varchar(20) not null, DeviceName varchar(255) not null, systemuptime varchar(255) not null, total_ram varchar(255) not null, used_ram varchar(255) not null, ram_usage varchar(255) not null, cpu_usage int(10) not null, total_hdd_space int(10) not null, used_hdd_space varchar(255) not null, recordtime timestamp not null, primary key (RecordID));
+create table Router_record (IPaddress varchar(20) not null, DeviceName varchar(255) not null, Total_Interface varchar(255) not null, Income_Traffic varchar(255) not null, Outcome_Traffic varchar(255) not null);
+alter table Linux_Record add index FKLinux_Reco891163 (ipaddress, DeviceName), add constraint FKLinux_Reco891163 foreign key (ipaddress, DeviceName) references Device (IPaddress, DeviceName);
+alter table Windows_Record add index FKWindows_Re127457 (IPaddress, DeviceName), add constraint FKWindows_Re127457 foreign key (IPaddress, DeviceName) references Device (IPaddress, DeviceName);
+alter table Router_record add index FKRouter_rec233861 (IPaddress, DeviceName), add constraint FKRouter_rec233861 foreign key (IPaddress, DeviceName) references Device (IPaddress, DeviceName);

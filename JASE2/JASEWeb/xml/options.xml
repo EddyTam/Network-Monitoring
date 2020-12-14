@@ -1,0 +1,130 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<options>
+
+	<general
+		websitetitle="JASE Network Monitoring System"
+		
+		headerminheight="65"
+		headermaxheight="200"
+		templatewidth="980"
+		templateheight="500"
+		menuareawidth="190"
+		
+		logourl="logo/logo.png"
+		logoorientation="left"
+		logoheight="58"
+		logopadding="12"
+		logoclicklink="index.html#/home"
+		logoclicktarget="_top"
+		
+		menufont="Bebas Neue"
+		textfont="ColaborateLight"
+		
+		menuleftpadding="10"
+		menufontsize="23"
+		menuspacing="-8"
+		menuidlecolor="0xffffff"
+		menuselectcolor="0xffc78a"
+		menushadowdistance="1"
+		menushadowstrength="3"
+		menushadowopacity="1"
+		
+		submenufontsize="17"
+		submenuindent="10"
+		submenuspacing="-6"
+		submenuidlecolor="0xFFFFFF"
+		submenuselectcolor="0xffc78a"
+		submenushadowdistance="1"
+		submenushadowstrength="3"
+		submenushadowopacity="1"
+		
+		bggradientcolor1="0x000000"
+		bggradientcolor2="0x000000"
+		bggradientratio1="0"
+		bggradientratio2="255"
+		bgimagealpha="1"
+		bggradientalpha="0.9"
+		
+		footerheight="30"
+		footerbgopacity="0.5"
+		footerbgcolor="0x111111"
+		footerpixelopacity="1"
+		footerpixelcolor="0x1E1A17"
+		footershadowdistance="10"
+		footershadowstrength="20"
+		footershadowopacity="0.7"
+		footertextshadowdistance="2"
+		footertextshadowstrength="2"
+		footertextshadowopacity="1"
+		
+		musicfullscreenrightpadding="10"
+		musicfullscreenbottompadding="7"
+		musicfullscreencolor="0xFFFFFF"
+		musicfullscreentextsize="11"
+		musicfullscreenopacity="0.4"
+		musicplayerlabel="PLAYER"
+		fullscreenlabel="FULL"
+		
+		assetshadowopacity="1"
+		assetshadowdistance="5"
+		assetshadowstrength="1"
+		assetshadowblur="5"
+		assetshadowcolor="0x000000"
+	/>
+	
+	<socialentries
+		socialleftpadding="10"
+		socialbottompadding="10"
+		socialbgcolor="0x1E1A17"
+		socialbgrounded="5"
+		
+		socialtextcolor="0xcccccc"
+		socialtextsize="11"
+		socialtextshadowalpha="1"
+		socialtextshadowblur="2"
+		socialtextshadowcolor="0x000000"
+		
+		sociallogosize="16"
+		sociallogospacing="5"
+	>
+	</socialentries>	
+		
+		
+	
+		
+	
+	
+	<musicentries 
+		musicactivated="true"
+		musicvolumecolor="0xFFFFFFF"
+		musicvolumebgcolor="0x222222"
+		musiciconcolor="0xffffff"
+		musicbuttoncolor="0x222222"
+		musicstartvolume="0.7"
+		
+		musicplayerwidth="250"
+		musicplayerpadding="5"
+		musicvolumeheight="30"
+		musicentryheight="25"
+		musicentryfontsize="20"
+		musicentryfontcolor="0xFFFFFFF"
+		musicentrybgcolor="0x1E1A17"
+		musicentrybgopacity="0.3"
+	>
+	
+		<song 
+			urllink="music/bgmusic.mp3"
+		>
+		BGM
+		</song>
+		
+	</musicentries>
+	
+	<footertext>
+	<![CDATA[
+		<ft>Product By JASE <a href="google.com"> www.Jase.com</a></ft>
+	]]>
+	</footertext>
+
+</options>

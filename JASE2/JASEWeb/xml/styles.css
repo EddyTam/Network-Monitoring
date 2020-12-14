@@ -1,0 +1,80 @@
+h1 { 
+	color: #FFFFFF; 
+	font-size: 20; 
+	font-family: ColaborateLight; 
+	text-align: center;
+}
+
+p { 
+	color: #bbbbbb; 
+	font-size: 13; 
+	font-family: ColaborateLight;
+	text-align: center;
+}
+
+ft { 
+	color: #777777; 
+	font-size: 13; 
+	font-family: ColaborateLight;
+	text-align: center;
+}
+
+welcome { 
+	color: #ffbe78; 
+	font-size: 35; 
+	font-family: Bebas Neue;
+	text-align: center;
+}
+
+content { 
+	color: #aaaaaa; 
+	font-size: 13; 
+	font-family: ColaborateLight;
+	text-align: left;
+}
+
+newsheadline1 { 
+	color: #ffffff; 
+	font-size: 20; 
+	font-family: ColaborateLight; 
+	text-align: left;
+}
+
+newsheadline2 { 
+	color: #ff8706; 
+	font-size: 24; 
+	font-family: ColaborateLight; 
+	text-align: left;
+}
+
+contentheadline1 { 
+	color: #eeeeee; 
+	font-size: 20; 
+	font-family: Walkway Oblique SemiBold; 
+	text-align: left;
+	letter-spacing: 1;
+}
+
+contentheadline2 { 
+	color: #ff8706; 
+	font-size: 18; 
+	font-family: ColaborateLight; 
+	text-align: left;
+}
+
+teaser { 
+	color: #aaaaaa; 
+	font-size: 13; 
+	font-family: ColaborateLight;
+	text-align: center;
+}
+
+li {
+	color: #ffffff; 
+	font-size: 15; 
+	font-family: ColaborateLight;
+}
+
+
+a:link {color: #ffa031; font-family: ColaborateLight; font-size: 14;}
+a:hover {color: #ffffff; font-family: ColaborateLight; font-size: 14; text-decoration: underline;}

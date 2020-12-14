@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-16le'?>
+
+<contactform 
+	formwidth="600"
+	formheight="500"
+
+	
+	imageurl="images/aboutus.jpg"
+	imagetarget="_blank"
+	imagewidth="200"
+	imageheight="150"
+	imagepadding="5"
+	imagesolidbackgroundcolor="0x222222"
+	imagebackgroundpatterncolor="0x000000"
+	
+	
+
+	
+	fonttype="ColaborateLight"
+>
+
+	<infotext>
+	<![CDATA[<newsheadline2>About Us:</newsheadline2><content><br/>
+JASE ----SNMP.<br/><br/>
+	Address: HK CW IVE<br/>
+	Phone: 88888888<br/>
+
+	Email: <a href="mailto:jase@jase.com">jase@jase.com</a><br/>
+	Website: <a href="http://www.jase.com">www.jase.com</a></content>]]>
+	</infotext>
+	
+	
+
+	
+</contactform>
